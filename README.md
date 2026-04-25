@@ -1,20 +1,20 @@
-#  Intelligent Product Search & Recommendation System
+# Intelligent Product Search & Recommendation System
 
-An end-to-end **data-driven product discovery system** that simulates real-world e-commerce platforms using **search, filtering, and recommendation logic**.
+An end-to-end data-driven product discovery system that replicates the core functionality of modern e-commerce platforms. This project enables efficient product search, advanced filtering, and rule-based recommendations using structured data processing techniques.
 
 ---
-##  Live Demo
+
+## Live Demo
 
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://intelligent-search.streamlit.app/)
 
-##  System Architecture
+---
 
-```
+## System Architecture
 
 <p align="center">
-  <img src="assets/architecture.png" alt="Architecture Diagram" width="900"/>
+  <img src="assets/architecture.png" alt="System Architecture" width="900"/>
 </p>
-
 
 ```
                 ┌────────────────────┐
@@ -54,175 +54,169 @@ An end-to-end **data-driven product discovery system** that simulates real-world
 
 ---
 
-##  Features
+## Key Features
 
-###  Smart Search
+### Search Engine
 
 * Keyword-based product search
 * Case-insensitive matching
-* Handles missing values safely
+* Robust handling of missing values
 
-###  Advanced Filters
+### Filtering System
 
-*  Price slider
-*  Category dropdown
-*  Brand dropdown
-*  Sidebar filtering system
-
-###  Recommendation System
-
+* Price range filtering using slider
 * Category-based filtering
 * Brand-based filtering
-* Budget-aware suggestions
-* Top-N product recommendations
+* Sidebar-driven user interaction
 
-###  Product Insights
+### Recommendation Engine
 
-* Product image
-* Name
-* Price
-* Brand
-* Category
+* Category-aware filtering
+* Brand-based refinement
+* Budget-constrained recommendations
+* Top-N product suggestions
+
+### Product Insights
+
+* Product image display
+* Name and pricing information
+* Brand and category details
 * Gender classification
-* ⭐ Exact rating (from dataset)
+* Exact rating values from dataset
 
-###  UI Features
+### User Interface
 
-* Dark mode 🌙
+* Dark mode support
 * Responsive layout
-* Clean product cards
+* Clean product card design
 * Sidebar navigation
 
 ---
 
-##  Tech Stack
+## Tech Stack
 
-### 🔹 Frontend
+### Frontend
 
 * Streamlit
 
-### 🔹 Backend
+### Backend
 
 * Python
 
-### 🔹 Data Handling
+### Data Processing
 
 * Pandas
-* NumPy (dependency)
+* NumPy
 
-### 🔹 Visualization
+### Visualization
 
 * Matplotlib
 * Seaborn
 
-### 🔹 Data Processing Techniques
+### Techniques Used
 
 * Feature engineering
-* Text parsing (`ast.literal_eval`)
-* String matching
-* Data cleaning
-
-### 🔹 Dataset
-
-* Flipkart E-commerce dataset
+* Text parsing (AST-based extraction)
+* String matching and filtering
+* Data cleaning pipelines
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 intelligent-product-search/
 │
-├── app.py                  # Main Streamlit app
-├── data_processing.py      # Data preprocessing logic
-├── recommendation.py       # Recommendation engine
-├── requirements.txt        # Dependencies
+├── app.py
+├── data_processing.py
+├── recommendation.py
+├── requirements.txt
 ├── flipkart_com-ecommerce_sample.csv
+├── assets/
+│   └── architecture.png
 └── README.md
 ```
 
 ---
 
-##  Installation
+## Installation
 
 ```bash
-git clone https://github.com/your-username/intelligent-product-search.git
+git clone https://github.com/jaswanthreddy/intelligent-product-search.git
 cd intelligent-product-search
 
 python -m venv venv
 venv\Scripts\activate
 
 pip install -r requirements.txt
-python -m streamlit run app.py
+streamlit run app.py
 ```
 
 ---
 
-##  Dataset Overview
+## Dataset Overview
 
-Contains:
+The dataset includes:
 
-* Product name
-* Category tree
-* Prices (retail & discounted)
-* Brand
-* Description
+* Product names
+* Category hierarchy
+* Pricing (retail and discounted)
+* Brand information
+* Product descriptions
 * Image URLs
 * Ratings
 
 ---
 
-##  Core Modules
+## Core Components
 
-### 🔹 Data Processing
+### Data Processing Module
 
-* Extract primary category
-* Extract image URL
-* Handle missing values
-* Create gender feature
+* Extracts primary category
+* Parses image URLs
+* Handles missing values
+* Derives additional features (e.g., gender classification)
 
-### 🔹 Search Engine
+### Search Engine
 
-* String-based filtering
-* Safe NaN handling
+* Implements string-based filtering
+* Ensures safe handling of null values
 
-### 🔹 Recommendation Engine
+### Recommendation Engine
 
-* Multi-filter system:
+* Multi-criteria filtering based on:
 
   * Category
   * Brand
-  * Price
+  * Price constraints
 
 ---
 
-##  Use Cases
+## Use Cases
 
-* E-commerce search engines
-* Product recommendation systems
-* Data science portfolio project
-* AI/ML application base
-
----
-
-##  Future Enhancements
-
-* NLP-based semantic search (BERT)
-* ML recommendation system
-* Personalized user recommendations
-* Database integration
-* Cloud deployment scaling
+* E-commerce product search systems
+* Recommendation engine prototypes
+* Data science portfolio projects
+* Applied machine learning pipelines
 
 ---
 
-##  Author
+## Future Improvements
 
-**Jaswanth Reddy Bandi**
+* Semantic search using transformer-based models
+* Machine learning-based recommendation system
+* Personalized recommendations
+* Database integration (SQL/NoSQL)
+* Scalable cloud deployment
+
+---
+
+## Author
+
+Jaswanth Reddy Bandi
 
 ---
 
-##  Support
+## License
 
-If you like this project, give it a ⭐ on GitHub!
-
----
+This project is intended for educational and demonstration purposes.
