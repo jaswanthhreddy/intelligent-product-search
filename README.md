@@ -204,7 +204,7 @@ The dataset includes:
 ## Future Improvements
 
 * Semantic search using transformer-based models
-* Machine learning-based recommendation system
+* Machine learning-based recommendation system 
 * Personalized recommendations
 * Database integration (SQL/NoSQL)
 * Scalable cloud deployment
