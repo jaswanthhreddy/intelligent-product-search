@@ -215,7 +215,7 @@ The dataset includes:
 
 **Jaswanth Reddy Bandi**  
 <p>
-  <a href="https://www.linkedin.com/in/your-linkedin-id" target="_blank">LinkedIn</a> |
+  <a href="https://www.linkedin.com/in/jaswanth-reddy-bandi-899525289/" target="_blank">LinkedIn</a> |
   <a href="https://github.com/jaswanthhreddy" target="_blank">GitHub</a>
 </p>
 
