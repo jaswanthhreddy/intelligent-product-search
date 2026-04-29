@@ -213,8 +213,11 @@ The dataset includes:
 
 ## Author
 
-Jaswanth Reddy Bandi
-
+**Jaswanth Reddy Bandi**  
+<p>
+  <a href="https://www.linkedin.com/in/your-linkedin-id" target="_blank">LinkedIn</a> |
+  <a href="https://github.com/jaswanthhreddy" target="_blank">GitHub</a>
+</p>
 
 ---
 
